@@ -32,3 +32,14 @@ start = time.perf_counter()
 compare_internal(10000)
 end = time.perf_counter()
 print('interning=', end - start)
+
+
+def my_func():
+    a = 24 * 60
+    aa = 1440
+    b = (1, 2) * 5
+    c = 'abc' * 110
+    d = [1, 2, 3]
+
+
+print(my_func.__code__.co_consts)
