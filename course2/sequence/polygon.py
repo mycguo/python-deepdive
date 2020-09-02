@@ -71,18 +71,6 @@ print(polygon1 == polygon2)
 print(polygon3 > polygon2)
 
 
-class Polygons:
-    def __init__(self, n, radius):
-        polygon_list = [Polygon(x, radius) for x in range(3, n+1)]
-
-    @property
-    def polygon_list(self):
-        return self.polygon_list
-
-    @property
-    def max_eff(self):
-        return max(x.area/x.perimeter for x in self.polygon_list)
-
 
 
 
