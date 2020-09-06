@@ -1,5 +1,6 @@
 from .coloruser import *
 from .packages import *
+from .course3.json import *
 
 
 print('running init')
