@@ -29,7 +29,7 @@ class MyClass:
 
 @MyClass(30, 40)
 def my_func(s):
-    print('Hello, {0}'.format(s))
+    print('Hello, {0}')
 
 
 my_func('charles guo')
